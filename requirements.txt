@@ -1,0 +1,6 @@
+jupyterlab==4.0.5
+requests==2.31.0
+pandas==2.0.3
+numpy==1.23.2
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.22
