@@ -6,8 +6,8 @@ Project World {
   '''
 }
 Table country as CY {
-country_code        varchar
-country_name_wb     varchar [pk]
+country_code        varchar [pk]
+country_name_wb     varchar 
 country_longname    varchar
 currency_unit       varchar
 region              varchar
@@ -93,8 +93,8 @@ world_water_quality float
   note: "Data on world"
 }
 Table timeseries as T{
-   country_name_wb varchar [pk]
-country_code varchar
+   country_name_wb varchar 
+country_code varchar [pk]
 year int [pk]
 access_to_clean_fuels_and_technologies_for_cooking float
 access_to_electricity float
